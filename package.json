@@ -74,7 +74,8 @@
     "types/**/*",
     "*.d.ts",
     "*.css",
-    "*.js"
+    "*.js",
+    "packages/*"
   ],
   "lint-staged": {
     "*.{js,json,css,scss,md,ts,html,graphql}": [
