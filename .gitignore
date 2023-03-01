@@ -39,3 +39,6 @@ testem.log
 Thumbs.db
 
 !packages/**
+!nx.json
+!workspace.json
+!tsconfig.base.json
