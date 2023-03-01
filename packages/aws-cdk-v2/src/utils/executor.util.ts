@@ -33,7 +33,6 @@ export function createCommand(command: string, options: ParsedExecutorInterface)
     //options.parseArgs[arg] might be an array
     const parsedArg = options.parseArgs[arg];
     if (Array.isArray(parsedArg)) {
-      console.log(`ParsedArg: ${parsedArg}`);
       parsedArg.forEach((value) => {
         commands.push(`--${arg} ${value}`);
       });
