@@ -75,7 +75,7 @@
     "*.d.ts",
     "*.css",
     "*.js",
-    "packages/*"
+    "packages/aws-cdk-v2/*"
   ],
   "lint-staged": {
     "*.{js,json,css,scss,md,ts,html,graphql}": [
