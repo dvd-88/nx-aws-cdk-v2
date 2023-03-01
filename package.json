@@ -76,9 +76,7 @@
     "*.css",
     "*.js",
     "packages/aws-cdk-v2/*",
-    "nx.json",
-    "workspace.json",
-    "tsconfig.base.json"
+    "*.json"
   ],
   "lint-staged": {
     "*.{js,json,css,scss,md,ts,html,graphql}": [
