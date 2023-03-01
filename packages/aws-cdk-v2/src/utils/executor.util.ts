@@ -35,6 +35,7 @@ export function createCommand(command: string, options: ParsedExecutorInterface)
     if (typeof parsedArg === 'string') {
       commands.push(`--${arg} ${parsedArg}`);
     } else {
+      console.log(`ParsedArg: ${parsedArg}`);
       parsedArg.forEach((value) => {
         commands.push(`--${arg} ${value}`);
       });
