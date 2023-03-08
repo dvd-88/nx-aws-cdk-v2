@@ -40,3 +40,4 @@ Thumbs.db
 
 !packages/**
 !*.json
+!e2e/aws-cdk-v2-e2e/**/*
